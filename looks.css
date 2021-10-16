@@ -18,9 +18,11 @@ body {
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 3px;
+    border-radius: 4px;
 }
 .top-nav-bar-item:hover {
     cursor: pointer;
+    background-color: rgb(31, 31, 31)
 }
 .top-nav-bar-item_title {
     font-weight: bold;
@@ -53,6 +55,7 @@ body {
 }
 #def-section-69_bot-img {
     width: 250px;
+    height: 250px;
     border-radius: 1000px;
 }
 #def-section-48_main-page {
@@ -97,28 +100,11 @@ body {
     background-color: rgb(78, 8, 124);
     cursor: pointer;
 }
-#Main-Invite-Button {
-    background-color: green;
-}
-#Main-Invite-Button:hover {
-    background-color: rgb(0, 90, 0);
-}
-
-#Secondary-Invite-Button {
-    background-color: rgb(255, 187, 0);
-}
-#Secondary-Invite-Button:hover {
-    background-color: rgb(182, 133, 0);
-}
-
-#Mininal-Invite-Button {
-    background-color: rgb(180, 43, 43);
-}
-#Mininal-Invite-Button:hover {
-    background-color: rgb(133, 30, 30);
-}
 code {
     background-color: #000000;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 1.54px;
+}
+.item-shut-notAllowed:hover {
+    cursor: not-allowed;
 }
