@@ -11,6 +11,9 @@ body {
     position: fixed;
     padding: 10px;
     z-index: 10000;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 .top-nav-bar-item {
     margin: 5px;
