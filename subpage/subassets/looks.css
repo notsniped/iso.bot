@@ -11,9 +11,6 @@ body {
     position: fixed;
     padding: 10px;
     z-index: 10000;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
 }
 .top-nav-bar-item {
     margin: 5px;
@@ -106,7 +103,6 @@ body {
 #Main-Invite-Button:hover {
     background-color: rgb(0, 90, 0);
 }
-
 #Secondary-Invite-Button {
     background-color: rgb(255, 187, 0);
 }
@@ -124,4 +120,18 @@ code {
     background-color: #000000;
     border-radius: 5px;
     padding: 1.54px;
+}
+.shard-display {
+    margin: 10px;
+    border-radius: 7px;
+    color: white;
+    /*background-color: rgb(24, 24, 24);*/
+    background-color: green;
+    box-shadow: 0px 0px 5px rgb(36, 36, 36);
+    padding: 20px;
+    text-align: center;
+}
+.shard-display .main-status {
+    font-size: 22px;
+    font-weight: bold;
 }
