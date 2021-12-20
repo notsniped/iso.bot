@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Transition from Binary to JSON - Isobot Threading</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Isobot. A Discord bot made to accelerate your server experience and make your server more fun!">
+        <link rel="stylesheet" type="text/css" href="looks.css">
+        <script></script>
+        <style>
+            .text-color-green {
+                color: green;
+                font-weight: bold;
+            }
+            .text-color-yellow {
+                color: rgb(201, 201, 48);
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <noscript>This page requires <b>JavaScript</b> to invite the bot and redirect to Discord. So please enable it in your Browser's settings.</noscript>
+    <body>
+        <div id="top-nav-bar">
+            <span class="top-nav-bar-item top-nav-bar-item_title" onclick="window.location.replace('')">Isobot</span>
+            <span class="top-nav-bar-item" id="clickBox-Main" onclick="window.location.replace('')">Invite Isobot</span>
+            <span class="top-nav-bar-item item-shut-notAllowed">Commands<sup>(COMING SOON)</sup></span>
+            <span class="top-nav-bar-item" onclick='window.location="https://discord.gg/MwqP8DEAqS"'>Support Server</span>
+            <span class="top-nav-bar-item" onclick="window.location='status.iso.html'">Status</span>
+        </div>
+        <br>
+        <br>
+        <div id='container'>
+            <div id="def-section-48_main-page">
+                <label class="label-main-page">ISOBOT THREADING</label>
+                <br>
+                <br>
+                <div class="def-line-main_page"></div>
+                <br>
+                <center>
+                    <br>
+                    <div class='gradient-box-102'>
+                        <label class="label-main-420">The Transition from <label class='text-color-green'><u>PICKLE</u></label> to <label class='text-color-yellow'><u>JSON</u></label>&nbsp;<label class='label-main-420'>(developers update V5.0.0)</label></label>
+                        <br>
+                        <label>Written by @notsniped | 10-12-2021</label>
+                    </div>
+                    <br>
+                </center>
+                <br>
+                <p>The first time isobot went live to many servers, the entire economy had to store data on a database so that even after a bot restart, the data would be safely stored.</p>
+                <p>The first thing I looked at when thinking about data storage for the bot was something called pickle, used by <code>import pickle</code>. This database had many advantages like a small initilazation code, compact file size, and extreme utility. But while using this I kinda overlooked on the disadvantages of this system, some of them being:</p>
+                <ol>
+                    <li>Binary-only storage</li>
+                    <li>(Sometimes) unstable data saving</li>
+                    <li>Non-rescuable data, unless you use specific custom-coded functions</li>
+                    <li>Data-save fails</li>
+                </ol>
+                <br>
+                <p>I don't think I have to explain about any of these problems, as they are probably self-explainatory. But they are some issues that make me want to not use the system. Another big issue with using pickle is that if I want to make new records, like adding a new item to the shop, the old database won't work with it. Instead I have to delete the old database with all the data. Then all of the member's data will get removed, which is a big inconvenience for some people.</p>
+                <p>Therefore, I have started to use JSON, which can combine multiple databases into one largr database, for convenient storage. Plus all the data is human-friendly and readable by every normal person. Plus to add new records to the bot's storage, the old data can be stored safely with no problem.</p>
+                <p><b>From <u>20-12-2021</u>, the transition from pickle binaries to JSON will commence, and the transition will finally finish by the <u>end of January 2022</u>. Cannot wait for the transition to be complete! Looking forward to it.</b></p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p><s>Very simple-looking blog, eh?</s></p>
+            </div>
+        </div>
+    </body>
+</html>
