@@ -125,20 +125,6 @@ code {
     border-radius: 5px;
     padding: 1.54px;
 }
-.shard-display {
-    margin: 10px;
-    border-radius: 7px;
-    color: white;
-    /*background-color: rgb(24, 24, 24);*/
-    background-color: green;
-    box-shadow: 0px 0px 5px rgb(36, 36, 36);
-    padding: 20px;
-    text-align: center;
-}
-.shard-display .main-status {
-    font-size: 22px;
-    font-weight: bold;
-}
 .gradient-box-102 {
     padding: 15px;
     background: linear-gradient(to right, purple 0%, rgb(157, 64, 211) 100%);
