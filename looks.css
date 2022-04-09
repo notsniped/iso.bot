@@ -111,4 +111,20 @@ code {
 .item-shut-notAllowed:hover {
     cursor: not-allowed;
 }
-/* Updated to add this description to fool github to reupdating the website as it failed at first try.
+.mini-card {
+    background-color: #363636;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 18.455px;
+    border-radius: 10px;
+}
+.mini-card #mini-card-title {
+    font-size: 31px;
+    font-weight: 600;
+}
+.mini-card #mini-card-desc {
+    font-size: 18px;
+}
+.mini-card img {
+    width: 200px;
+}
